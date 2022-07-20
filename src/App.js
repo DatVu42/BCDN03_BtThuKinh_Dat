@@ -1,15 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './BaiTapLayoutComponent/Header';
-import Body from './BaiTapLayoutComponent/Body';
-import Footer from './BaiTapLayoutComponent/Footer';
+import BaiTapThuKinh from './BaiTapThuKinh/BaiTapThuKinh';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Body />
-      <Footer />
+      <BaiTapThuKinh />
     </div>
   );
 }
